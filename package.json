@@ -1,0 +1,36 @@
+{
+  "name": "week8-spotted-gulls",
+  "version": "1.0.0",
+  "description": "spotted gulls",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test tape src/tests/*.test.js | tap-bunny",
+    "start": "node src/controllers/index.js",
+    "start:watch": "nodemon src/controllers/index.js",
+    "dbBuild": "node src/model/database/run_build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAC-Sixteen/week8-spotted-gulls.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAC-Sixteen/week8-spotted-gulls/issues"
+  },
+  "homepage": "https://github.com/FAC-Sixteen/week8-spotted-gulls#readme",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "pg": "^7.10.0",
+    "query-string": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.2",
+    "tap-bunny": "^1.0.9",
+    "tape": "^4.10.1"
+  }
+}
