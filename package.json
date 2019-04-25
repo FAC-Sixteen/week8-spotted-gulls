@@ -7,7 +7,7 @@
     "test": "NODE_ENV=test tape src/tests/*.test.js | tap-bunny",
     "start": "node src/controllers/index.js",
     "start:watch": "nodemon src/controllers/index.js",
-    "dbBuild": "node src/model/database/run_build.js"
+    "dbBuild": "node src/model/database/db_build.js"
   },
   "repository": {
     "type": "git",
