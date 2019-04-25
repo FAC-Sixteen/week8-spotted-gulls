@@ -7,8 +7,8 @@ const postGull = (dataObject) => {
         .then(res => resolve(res.rows[0].id))
         .catch(err => reject(err))
     })
-}
+};
 
 module.exports = {
     postGull
-}
+};
