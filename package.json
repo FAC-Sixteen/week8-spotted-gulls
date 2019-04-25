@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test tape src/tests/*.test.js | tap-bunny",
-    "start": "node src/controllers/index.js",
-    "start:watch": "nodemon src/controllers/index.js",
+    "start": "node src/index.js",
+    "start:watch": "nodemon src/index.js",
     "dbBuild": "node src/model/database/db_build.js"
   },
   "repository": {
@@ -25,7 +25,8 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "pg": "^7.10.0",
-    "query-string": "^6.4.2"
+    "query-string": "^6.4.2",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.11",
