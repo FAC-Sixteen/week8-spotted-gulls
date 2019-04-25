@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: flex-end;
   background-color: red;
-  width: 100%;
+  width: 20%;
   height: 2rem;
 }
 
@@ -43,4 +43,14 @@ body {
 .logull {
   width: 10rem;
   height: 10rem;
+}
+
+.form {
+  border: solid 2em snow;
+  display: flex;
+  margin: 5rem;
+}
+
+.stretch-gull {
+  border-radius: 50%;
 }

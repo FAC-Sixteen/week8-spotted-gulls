@@ -1,1 +1,36 @@
-Register Page
+<img class="stretch-gull" src="https://c1.staticflickr.com/5/4052/4312728280_24eda02af8_b.jpg">
+<form class="form" method="POST" action="/register-gull">
+    <label class="label" for="name">name</label>
+    <input type="text" id="name" name="name" placeholder="Gully Guy Leo" required>
+    <label class="label" for="image">image url</label>
+    <input type="text" id="image" name="image" placeholder="https://i.imgur.com/789.png" required>
+    <label class="label" for="seasons">seasons lived</label>
+    <input type="number" id="seasons" name="seasons" placeholder="6" required>
+    <label class="label" for="breed">breed</label>
+    <input type="text" id="breed" name="breed" placeholder="herring gull" required>
+    <label class="label" for="fish_chips">fish or chips?</label>
+    <select>
+        <option value="fish">fish</option>
+        <option value="chips">chips</option>
+        <option value="both">both</option>
+        <option value="neither">neither</option>
+    </select>
+    <label class="label" for="wingspan">wingspan</label>
+    <input type="number" id="wingspan" name="wingspan" placeholder="27" required>
+    <label class="label" for="klepto">kleptoparasitism out of 7</label>
+    <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <label class="label" for="celebrity_lookalike">celebrity lookalike</label>
+    <input type="text" id="celebrity_lookalike" name="celebrity_lookalike" placeholder="Robin Williams" required>
+    <label class="label" for="gullibility">gullibility</label>
+    <input type="text" id="gullibility" name="gullibility" placeholder="?" required>
+    <label class="label" for="fact">interesting fact about yourself</label>
+    <input type="textarea" id="fact" name="fact" placeholder="I aim for the face." required>
+    <label class="label" for="quote">favourite quote</label>
+    <input type="text" id="quote" name="quote" placeholder="One small hop for gull, one giant hop for birdkind." required>
+</form>
