@@ -71,6 +71,7 @@ _Rohan_ :fish:
 + comment section under each gull
 + fish/chips button (instead of like button)
 + messaging platform so gulls can talk to each other
++ add squawks to enhance UX
 
 ## Planning and process
 
