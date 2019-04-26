@@ -95,13 +95,14 @@ a {
 }
 
 .form {
-  border: solid 2em snow;
   display: flex;
   flex-direction: column;
   width: 70vw;
   padding: 5px;
   margin: 1rem;
-  background-color: aqua;
+  margin-bottom: 5rem;
+  background-color: white;
+  border-radius: 5%;
 }
 
 .label {
@@ -126,8 +127,8 @@ a {
   border-radius: 50%;
   height: 50vh;
   width: 50vw;
-  border: solid 1em snow;
-  margin-top: 1rem;
+  border: solid 0.5em snow;
+  margin-top: 0;
 }
 
 .profile-list {
@@ -160,4 +161,25 @@ li {
 .profile_image {
   width: 40%;
   height: auto;
+}
+
+.registerContainer{
+  margin-top: 4rem;
+}
+
+.submit {
+  width: 20%;
+  align-self: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+input {
+  height: 1.5rem;
+}
+
+select {
+  height: 1.5rem;
 }
