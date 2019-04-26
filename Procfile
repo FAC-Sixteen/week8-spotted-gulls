@@ -1,1 +1,1 @@
-web: node src/controllers/index.js
+web: node src/index.js
