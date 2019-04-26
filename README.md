@@ -87,14 +87,15 @@ _Rohan_ :fish:
 
 We worked together as a 3, which turned out fine, but took quite a long time.
 
+
 ## What we learned
 
 + how to add data using Handlebars
 + how Express works
 + that you can't have issues automatically assigned to github projects --> we tried using hub in the command line, but prioritised projects for aesthetic pleasure
 + main.hbs --> when <link>ing in the .css file, it thinks the starting point is an other folder in the public folder (that doesn't exist) i.e. instead of ../../../public/main.css, it's ../main.css
-+ in a form, <select>s also need `name` and `id`!
-  
++ in a form, `<select>`s also need `name` and `id`!
+
 ## Problems encountered
 
 + towards the end of Day 1, right in the middle of creating the database, we realised gulls can't type* (*not scientifically confirmed)

@@ -43,6 +43,7 @@ h1 {
 
 a {
   color: #97d6fe;
+  font-size: 1.25rem;
   padding: 0 2rem;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
@@ -101,18 +102,19 @@ p {
 }
 
 .form {
-  border: solid 2em snow;
   display: flex;
   flex-direction: column;
   width: 70vw;
   padding: 5px;
   margin: 1rem;
-  background-color: aqua;
+  margin-bottom: 5rem;
+  background-color: white;
+  border-radius: 5%;
 }
 
 .label {
   display: inherit;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 1rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -132,21 +134,33 @@ p {
   border-radius: 50%;
   height: 50vh;
   width: 50vw;
-  border: solid 1em snow;
-  margin-top: 1rem;
+  border: solid 0.5em snow;
+  margin-top: 0;
 }
 
 .profile-list {
   list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  background-color: rgba(250, 250, 250, 0.8);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10%;
 }
 
 li {
   padding: 0.5rem 0;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .profile {
   width: 100vw;
+  height: 80vh;
   justify-content: center;
+  align-items: center;
   display: flex;
   /* flex-direction: column; */
 }
@@ -155,6 +169,8 @@ li {
   width: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .profile_body {
@@ -164,8 +180,11 @@ li {
 }
 
 .profile_image {
-  width: 40%;
-  height: auto;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: fill;
+  border: solid 5px white;
 }
 
 .gullsGrid {
@@ -224,4 +243,28 @@ h2 {
 
 .error__desc {
   padding-right: 2rem;
+}
+
+.registerContainer{
+  margin-top: 4rem;
+}
+
+.submit {
+  width: 20%;
+  align-self: center;
+  font-size: 1.25rem;
+  font-family:  "Josefin Sans", sans-serif;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+input {
+  height: 2.5rem;
+  font-size: 1.25rem;
+}
+
+select {
+  height: 2.5rem;
+  font-size: 1.25rem;
 }
