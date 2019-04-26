@@ -35,18 +35,18 @@ A dating app for gulls! By dating app, we mean a platform where gulls can upload
 + learn to use Express
 + learn to use Handlebars
 
-- [ ] have app deployed on heroku
+- [x] have app deployed on heroku
 - [ ] use CI (Travis)
-- [ ] use github projects
-- [ ] have a one table database
-- [ ] use express to set up server and router
-- [ ] use express for controllers
-- [ ] use handlebars to display pages more efficiently
-- [ ] have tests
-- [ ] be able to register a new gull
-- [ ] be able to sea each gull
-- [ ] be able to sea all gulls at once*
-- [ ] have reasonable CSS
+- [x] use github projects
+- [x] have a one table database
+- [x] use express to set up server and router
+- [x] use express for controllers
+- [x] use handlebars to display pages more efficiently
+- [x] have tests
+- [x] be able to register a new gull
+- [x] be able to sea each gull
+- [x] be able to sea all gulls at once*
+- [x] have reasonable CSS
 
 *this we left for Friday, leaving reviewers rather peckish:
 
