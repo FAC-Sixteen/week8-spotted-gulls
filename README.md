@@ -47,6 +47,7 @@ A dating app for gulls! By dating app, we mean a platform where gulls can upload
 - [x] be able to sea each gull
 - [x] be able to sea all gulls at once*
 - [x] have reasonable CSS
+- [x] error pages
 
 *this we left for Friday, leaving reviewers rather peckish:
 
