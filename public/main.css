@@ -32,6 +32,10 @@ a {
   font-family: "Josefin Sans", sans-serif;
 }
 
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .main {
   padding: 2rem 0;
 }
@@ -142,4 +146,38 @@ li {
 .profile_image {
   width: 40%;
   height: auto;
+}
+
+.gullsGrid {
+  border-top: solid 5px white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.singleGull {
+  padding: 0 1vh;
+  margin: 0 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gull-image {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: fill;
+  border: solid 5px white;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 3vw;
+  word-wrap: normal;
+  max-width: 25vw;
 }
