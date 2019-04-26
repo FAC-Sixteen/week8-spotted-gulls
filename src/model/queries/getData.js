@@ -8,6 +8,15 @@ const getGull = (id) => {
     })
 };
 
+const getGulls = () => {
+    return new Promise((resolve, reject) => {
+        dbConnection.query('SELECT id, name, image_url FROM gulls')
+        .then(res => resolve(res.rows))
+        .catch(err => reject (err))
+    })
+}
+
 module.exports = {
-    getGull
+    getGull,
+    getGulls
 };

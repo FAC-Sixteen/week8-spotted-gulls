@@ -1,1 +1,12 @@
 Gull Profile Circles
+
+<section class='gullsGrid'>
+{{#each gullsData}}
+<section class='singleGull'>
+    <a href='/gull/{{this.id}}'>
+<img class='gull-image' src='{{this.image_url}}'>
+</a>
+<h2>{{this.name}}</h2>
+</section>
+{{/each}}
+</section>
