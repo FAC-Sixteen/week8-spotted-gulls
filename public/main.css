@@ -6,7 +6,23 @@ body {
 .page-container {
   position: relative;
   min-height: 100vh;
-  background-color: aquamarine;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  margin-top: 4rem;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+  opacity: 0.55;
 }
 
 h1 {
@@ -20,20 +36,17 @@ h1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: blue;
+  background-color: white;
   width: 100%;
-  height: 2rem;
+  height: 4rem;
 }
 
 a {
-  color: white;
-  padding: 0 1rem;
+  color: #97D6FE;
+  padding: 0 2rem;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
-}
-
-.main {
-  padding: 2rem 0;
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -41,22 +54,25 @@ a {
   bottom: 0;
   right: 0;
   font-family: "Josefin Sans", sans-serif;
-  height: 2rem;
+  height: 4rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: #97D6FE;
   width: 100%;
   padding: 0 0.5rem;
 }
+
 
 .logo-flex {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  width: 100%;
+  width: 30%;
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 50%;
 }
 
 .button-flex {
@@ -65,10 +81,12 @@ a {
   width: 100%;
 }
 
+.headerContainer{
+  position: relative;
+}
+
 .register-button {
-  width: 8rem;
-  height: 4rem;
-  font-size: 1rem;
+  color: #73DEBA;
 }
 
 .logull {
