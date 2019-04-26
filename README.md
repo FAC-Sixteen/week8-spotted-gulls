@@ -1,5 +1,7 @@
 # week8-spotted-gulls
 
+![gulls](https://thumbs.gfycat.com/CharmingDimwittedBonobo-size_restricted.gif)
+
 # SPOTTED GULL
 http://spotted-gull.herokuapp.com/
 
@@ -19,7 +21,7 @@ A dating app for gulls! By dating app, we mean a platform where gulls can upload
 + Handlebars.js
 + Love
 
-## Setup
+## Setup :blowfish:
 
 + git clone!
 + `npm i`!
@@ -98,3 +100,5 @@ We worked together as a 3, which turned out fine, but took quite a long time.
 + towards the end of Day 1, right in the middle of creating the database, we realised gulls can't type* (*not scientifically confirmed)
 + Travis quietly not working properly in the background
 + parsing data to partials
+
+![gull](https://media3.giphy.com/media/EU937QYxNFPeE/giphy.gif)
